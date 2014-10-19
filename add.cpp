@@ -6,7 +6,10 @@ int main ()
 {
   int a,b,c;
   cout<<"enter the numbers to be added";
-  cin>>a>>b;
+  cout<<endl<<"first number:";
+  cin>>a;
+  cout<<endl<<"second numbe:";
+  cin>>b;
   c=a+b;
   cout<<c;
 }
